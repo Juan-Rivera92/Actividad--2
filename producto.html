@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      form{
+        display: inline-block;
+      }
+      div{
+        margin-bottom: 10px;
+      }
+      label {
+        display: inline-block;
+        width: 150px;
+        text-align: right;
+      }
+      button{
+        display: inline-block;
+        margin: 10px;
+      }
+      form{
+        justify-content: center;
+        display: flex;
+        margin: 40px 50px;
+        padding: 30px;
+      }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+          <legend>Registro de Producto</legend>
+          <div>
+            <label>Codigo:</label>
+            <input type="text"></input>
+          </div>
+          <div>
+            <label>Descripcion:</label>
+            <input type="text"></input>
+          </div>
+          <div>
+            <label>Codigo de Barra:</label>
+            <input type="text"></input>
+          </div>
+          <div>
+            <label>Precio Unitario:</label>
+            <input type="text"></input>
+          </div>
+          <div>
+            <label>Stock:</label>
+            <input type="text"></input>
+          </div>
+          <div>
+            <label>Proveedor:</label>
+            <input type="text"></input>
+          </div>
+          <div>
+            <label>Estado:</label>
+            <input type="checkbox">
+          </div>
+          <label>Categorias</label>
+          <select name="languages" id="lang">
+            <option value="Categoria 1">Categoria 1</option>
+            <option value="Categoria 2">Categoria 2</option>
+            <option value="Categoria 3">Categoria 3</option>
+            <option value="Categoria 4">Categoria 4</option>
+          </select>
+          <br>
+          <br>
+          <br>
+            <button type="button" onclick="document.location='/datosguardados.html'">Guardar</input>
+            <button type="button" onclick="document.location='/index.html'">Cancelar</input>
+        </fieldset>
+      </form>
+</body>
+</html>
